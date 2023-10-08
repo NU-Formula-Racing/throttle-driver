@@ -1,0 +1,7 @@
+{
+    "name": "InverterDriver",
+    "version": "0.0.0+20220926210002",
+    "dependencies": {
+        "CAN": "https://github.com/NU-Formula-Racing/CAN.git"
+    }
+}
