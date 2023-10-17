@@ -1,9 +1,6 @@
-# Inverter Driver
-### Inverter driver with an abstract inverter class and a specific implementation for the Bamocar D3 inverter.  
+# Throttle Driver
+### Throttle driver with an abstract throttle class and a specific implementation for the throttle.  
 <br>
 
 TODO:
-- Implement status report mesages
-- Forwarding received values onto another address
-- Unit testing
-- Additional safety checking
+- Implement throttle class
