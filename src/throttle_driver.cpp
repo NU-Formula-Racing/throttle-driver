@@ -1,16 +1,13 @@
 #include "throttle_driver.h"
 
-uint16_t Throttle::GetThrottleAngle() {
-    // Write code here
-    return 0;
+uint16_t Throttle::GetThrottlePercent() {
+    return throttle_percent;
 };
 
 bool Throttle::IsBrakePressed() {
-    // Write code here
-    return false;
+    return brake_pressed;
 };
 
 bool Throttle::IsThrottleActive() {
-    // Write code here
-    return false;
+    return throttle_active;
 };
