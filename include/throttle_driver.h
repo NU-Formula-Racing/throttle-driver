@@ -29,7 +29,7 @@ class Throttle {
     public:
         Throttle(ICAN &can_interface_) : can_interface_(can_interface_){};
         void RXCallback();
-        uint16_t GetThrottleAngle();
+        uint8_t GetThrottleAngle();
         bool IsBrakePressed();
         bool IsThrottleActive();
 };
