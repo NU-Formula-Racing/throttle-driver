@@ -1,5 +1,6 @@
 #include "throttle_driver.h"
 
+
 uint8_t Throttle::GetThrottleAngle() {
     return throttle_percent;
 };
