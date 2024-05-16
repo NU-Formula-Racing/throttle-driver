@@ -1,7 +1,11 @@
 #include "throttle_driver.h"
 
+void Throttle::Initialize() {
+    can_interface_.RegisterRXMessage(throttle_message);
+    can_interface_.RegisterRXMessage(brake_message);
+}
 
-uint8_t Throttle::GetThrottleAngle() {
+int16_t Throttle::GetThrottleAngle() {
     return throttle_percent;
 };
 
